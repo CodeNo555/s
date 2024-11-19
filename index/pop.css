@@ -1,0 +1,225 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin-bottom: 25px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Funetes */
+/* Títulos */
+.outfit-uniquifier { 
+    font-weight: 900;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-family: "Outfit", sans-serif;
+}
+
+/* Subtítulos */
+.josefin-sans-uniqblur {
+    font-weight: bold;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+/* Textos */
+.sulphur-point-light {
+    font-family: "Sulphur Point", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.sulphur-point-regular {
+    font-family: "Sulphur Point", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.sulphur-point-bold {
+    font-family: "Sulphur Point", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+} 
+
+/* Encabezado */
+.fixed {
+    top: -0px;
+    width: 100%;
+    opacity: 100%;
+    height: 100px;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+}
+
+/* Artista y Álbums */
+.title {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+/*Sección del artista */
+.cover {
+    gap: 20px; /* Espacio entre filas y columnas */
+    width: 80%; 
+    display: flex;
+    padding: 20px;
+    margin-top: 10px;
+    max-width: 1200px; 
+    margin: 30px auto; 
+    flex-direction: row;
+    align-items: flex-start; 
+}
+
+/* Título */
+.name {
+    color: black;
+    font-size: 40px;
+    margin-top: 120px;
+    margin-bottom: 0;
+    text-align: justify;
+    font-weight: bolder;
+}
+
+/* Imagen del artista */
+.artist {
+    width: 490px;
+    height: auto;
+    margin-top: 150px;
+    border-radius: 10px;
+}
+
+/* Texto de descripción */
+.text {
+    width: 100%;
+    color: black;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Informacion de Álbums */
+.album1 {
+    width: 100%;
+    display: inline-block;
+    background-color: rgb(125, 145, 133);
+}
+
+.album2 {
+    width: 100%;
+    display: inline-block;
+    background-color: rgb(141, 97, 49);
+}
+
+.album3 {
+    width: 100%;
+    display: inline-block;
+    background-color: rgb(92, 85, 88);
+}
+
+.albums {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+.info img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+button {
+    width: 250px;
+    height: 40px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: rgb(57, 68, 54);
+}
+
+b {
+    font-size: 25px;
+    color: white;
+}
+
+.info {
+    gap: 20px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.info p {
+    flex: 1;
+    margin: 0;
+    color: white;
+    max-width: 800px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+h3 {
+    margin-left: 20px;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.c {
+    font-size: 25px;
+}
+
+.fixed3 {
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.social {
+    padding-top: 5px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    
+}
+
+.foot {
+    padding-left: 570px;
+}
+
+.f {
+    color: white;
+    font-size: 8px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.fa-solid, .fa-house, .fa-flip-horizontal, .fa-2xs {
+    justify-items: flex-start;
+    margin-right: 35px;
+    margin-left: 15px;
+}

@@ -1,0 +1,155 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+/* Funetes */
+/* Títulos */
+.outfit-uniquifier { 
+    font-weight: 900;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-family: "Outfit", sans-serif;
+}
+
+/* Subtítulos */
+.josefin-sans-uniqblur {
+    font-weight: bold;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+/* Textos */
+.sulphur-point-light {
+    font-family: "Sulphur Point", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.sulphur-point-regular {
+    font-family: "Sulphur Point", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.sulphur-point-bold {
+    font-family: "Sulphur Point", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+} 
+
+/* Encabezados */
+.fixed {
+    top: -0;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+}
+
+.title {
+    color: white;
+    font-size: 30px;
+    display: inline-block;
+    text-transform: uppercase;   
+}
+
+/*Sección del artista */
+.imgs {
+    width: 80%; 
+    padding: 150px;
+    padding-top: 20px;
+    max-width: 1200px; 
+    margin: 100px;
+}
+
+/* Título */
+.name {
+    color: black;
+    font-size: 40px;
+    margin-top: 150px;
+    margin-bottom: 0;
+    text-align: justify;
+    font-weight: bolder;
+}
+
+/* Imagen del artista */
+.leyenda {
+    float: left;
+    width: 350px;
+    margin: 10px;
+    height: 350px;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+/* Texto de descripción */
+.text {
+    width: 100%;
+    color: black;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.info img {
+    width: 350px;
+    height: auto;
+    
+}
+.info {
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+    max-width: 800px;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 30px 0 30px 0;
+}
+
+.fixed2 {
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.social {
+    padding-top: 5px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    
+}
+
+.foot {
+    padding-left: 570px;
+}
+
+.f {
+    color: white;
+    font-size: 8px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.fa-solid, .fa-house, .fa-flip-horizontal, .fa-2xs, .fa-arrow-left {
+    justify-items: flex-start;
+    margin-left: 10px;
+    padding-left: 100px;
+    margin-right: 10px;
+}
+
+.video {
+    padding-left: 100px;
+}

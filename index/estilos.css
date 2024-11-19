@@ -1,0 +1,126 @@
+html 
+{
+    scroll-behavior: smooth;
+}
+
+.nox {
+
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    background: url('Recursos/Black_hole-kvkH--1248x698@abc.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+}
+
+.texto {
+    
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 500px;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    /* -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: black ; */
+    text-shadow: 5px 5px 3px rgb(82, 82, 82)
+}
+
+.opacidad {
+    opacity: 0.5;
+}
+
+.boton {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}
+
+.boton:hover {
+    
+    background-color: gray;
+    color: white;
+    font-size: 24px;
+}
+
+.imagenes {
+    width: 400px;
+    height: 400px;
+    background: url('Recursos/agujero-negro.jpg');
+    background-size: cover;
+    transition: 0.5;
+
+}
+
+.imagenes:hover {
+    width: 400px;
+    height: 400px;
+    background: url('Recursos/Black_hole-kvkH--1248x698@abc.jpg');
+    background-size: cover;
+    transition: 0.5;
+    transform: scale(0.9);
+}
+
+.titulo {
+    color: black;
+
+}
+
+.titulo:hover {
+    color: blueviolet;
+}
+
+.imagen {
+    background: url('Recursos/aparentemente-a-via-lactea-nao-e-um-disco-totalmente-plano-e-a-materia-escura-pode-ser-a-justificacao-astronomia-1695222386131_1280.jpg');
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+   
+}
+
+.imagen2 {
+    background: url('Recursos/como-ver-a-la-deslumbrante-andromeda-nuestra-galaxia-vecina.jpg');
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    margin-left: 10px;
+}
+
+.imagen3 {
+
+    background: url('Recursos/que-es-el-grupo-local-y-cuantas-galaxias-hay-en-el-1280x720.jpg');
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    margin-left: 10px;
+}
+
+.inline {
+    margin-top: 30px;
+    display: inline-block;
+
+}
+
+.menu {
+    display: inline-block;
+    padding-left: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+.menu:hover {
+    color: rgb(117, 48, 177);
+    transition: 0.5s;
+
+}

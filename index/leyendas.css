@@ -1,0 +1,256 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgba(119, 119, 119, 0.777);
+}
+
+/* Funetes Personalizadas */
+/* Títulos */
+.outfit-uniquifier { 
+    font-weight: 900;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-family: "Outfit", sans-serif;
+}
+/* Subtítulos */
+.josefin-sans-uniqblur {
+    font-weight: bold;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+/* Textos */
+.sulphur-point-light {
+    font-family: "Sulphur Point", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.sulphur-point-regular {
+    font-family: "Sulphur Point", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.sulphur-point-bold {
+    font-family: "Sulphur Point", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Encabezados */
+.fixed {
+    top: 0;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+}
+
+/* Artistas */
+.title {
+    color: white;
+    font-size: 30px;
+    display: inline-block;
+    text-transform: uppercase;   
+}
+
+.subtitle {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+/* Información de los Álbums */
+.text {
+    width: 350px;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+    margin: 20px auto 20px;
+}
+
+.leyendas {
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 150px;
+    vertical-align: top;
+    display:inline-block;
+}
+
+/* Portada de SZA-Ctrl */
+.img1 {
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: 0.8s;
+    object-fit: cover; /* Ajusta la imagen para que cubra todo el contenedor sin distorsión */
+    border-radius: 8px;
+}
+
+.img1:hover {
+    transition: 0.8s;
+    filter: contrast(55%);
+}
+
+/* Portada de SZA-S.O.S*/
+.img2 {
+    width: 100%;
+    height: 100%;
+    transition: 0.8s;
+    object-fit: cover;
+    border-radius: 8px;
+    
+}
+
+.img2:hover {
+    transition: 0.8s;
+    filter: contrast(55%);
+}
+
+/* Portada de SZA-Z */
+.img3 {
+    width: 100%;
+    height: 100%;
+    transition: 0.8s;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.img3:hover {
+    transition: 0.8s;
+    filter: contrast(55%);
+}
+
+/* Portada de ArianeG-Positions */
+.img4 {
+    width: 100%;
+    height: 100%;
+    transition: 0.8s;
+    object-fit: cover;
+    border-radius: 8px;
+    
+}
+
+.img4:hover {
+    transition: 0.8s;
+    filter: blur(15px);
+}
+
+/* Portada de ArianeG-Sweetener */
+.img5 {
+    width: 100%;
+    height: 100%;
+    transition: 0.8s;
+    object-fit: cover;
+    border-radius: 8px;
+    
+}
+
+.img5:hover {
+    transition: 0.8s;
+    filter: blur(15px);
+}
+
+/* Portada de ArianeG-MyEverthing */
+.img6 {
+    width: 100%;
+    height: 100%;
+    transition: 0.8s;
+    object-fit: cover;
+    border-radius: 8px;
+    
+}
+
+.img6:hover {
+    transition: 0.8s;
+    filter: blur(15px);
+}
+
+/* Portada de Queen-Queen */
+.img7 {
+    width: 100%;
+    height: 100%;
+    transition: 0.8s;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.img7:hover {
+    transition: 0.8s;
+    filter: grayscale(80%);
+}
+
+/* Portada de Queen-ATheNightTheOpera */
+.img8 {
+    width: 100%;
+    height: 100%;
+    transition: 0.8s;
+    object-fit: cover;
+    border-radius: 8px;
+    
+}
+
+.img8:hover {
+    transition: 0.8s;
+    filter: grayscale(80%);
+}
+
+/* Portada de Queen-NewsOfTheWorld */
+.img9 {
+    width: 100%;
+    height: 100%;
+    transition: 0.8s;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.img9:hover {
+    transition: 0.8s;
+    filter: grayscale(80%);
+}
+
+.fixed2 {
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    margin-top: 100px;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.social {
+    padding-top: 5px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.foot {
+    padding-left: 570px;
+}
+
+.f {
+    color: white;
+    font-size: 8px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.fa-solid, .fa-house, .fa-flip-horizontal, .fa-2xs, .fa-arrow-left {
+    justify-items: flex-start;
+    margin-right: 50px;
+}
